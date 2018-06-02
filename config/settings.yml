@@ -3,7 +3,7 @@ plugins:
     default: true
     client: true
   affiliate_amazon_ca:
-    default: ''
+    default: 'vr10f-20'
     client: true
   affiliate_amazon_cn:
     default: ''
@@ -12,10 +12,10 @@ plugins:
     default: ''
     client: true
   affiliate_amazon_co_uk:
-    default: ''
+    default: 'vrla-21'
     client: true
   affiliate_amazon_com:
-    default: ''
+    default: 'vr101-20'
     client: true
   affiliate_amazon_com_au:
     default: ''
@@ -27,24 +27,34 @@ plugins:
     default: ''
     client: true
   affiliate_amazon_de:
-    default: ''
+    default: 'vrla06-21'
     client: true
   affiliate_amazon_es:
-    default: ''
+    default: 'vrla0c-21'
     client: true
   affiliate_amazon_fr:
-    default: ''
+    default: 'vrla0e-21'
     client: true
   affiliate_amazon_in:
     default: ''
     client: true
   affiliate_amazon_it:
-    default: ''
+    default: 'vrla00-21'
     client: true
   affiliate_amazon_nl:
     default: ''
+    client: true
+  affiliate_flystein:
+    default: 'tor1'
     client: true
   affiliate_ldlc_com:
     default: ''
     client: true
     regex: "^[a-zA-Z0-9]+$"
+  affiliate_redirect_base_domain:
+    default: 'https://geni.us/'
+    client: true
+  affiliate_rewrite_domains:
+    default: 'discourse.org,discourse|www.discourse.org,discourse,uri|meta.discourse.com,discoursemeta|transferwise.com,transferwise|www.transferwise.com,transferwise|www.n26.com,n26bank|n26.com,n26bank|www.torguard.com,torguardgeo|torguard.com,torguardgeo|nordvpn.com,nordvpn|www.nordvpn.com,nordvpn|digitalocean.com,digitalocean|www.digitalocean.com,digitalocean'
+    client: true
+    type: list

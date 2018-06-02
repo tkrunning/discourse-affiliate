@@ -15,4 +15,7 @@ en:
     affiliate_amazon_in: "Your amazon.in (India) associates id."
     affiliate_amazon_it: "Your amazon.it (Italy) associates id."
     affiliate_amazon_nl: "Your amazon.nl (Netherlands) associates id."
+    affiliate_flystein: "Your Flystein affiliate code."
     affiliate_ldlc_com: "Your ldlc.com affiliate id (without the #)."
+    affiliate_rewrite_domains: "Enter the domains, corresponding paths, (and optionally url/uri/path to include that as a variable) that you want to forward. Format: [domain],[path],[OPTIONAL: 'url' or 'uri' or 'path']"
+    affiliate_redirect_base_domain: "The url to where you host your redirects. E.g. https://bit.ly/ or https://geni.us/ or https://yoursite.com/out/. Include trailing /"
